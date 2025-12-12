@@ -1,8 +1,0 @@
-Flask==2.3.4
-opencv-python-headless==4.8.1.78
-numpy==1.26.2
-mediapipe==0.11.10
-tensorflow==2.14.0
-tensorflow-hub==0.14.1
-ultralytics==8.1.0
-soundfile==0.12.1
