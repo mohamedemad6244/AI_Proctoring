@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+*.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Flask / web
+instance/
+*.db
+*.sqlite3
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# Large model files (YOLO, TensorFlow, etc.)
+yolo11l.pt
+
+# Audio / temporary media
+*.wav
+*.mp3
+*.ogg
+
+# PDF reports / images
+cheating_evidence/
+reports/
