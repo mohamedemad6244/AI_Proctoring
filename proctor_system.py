@@ -33,9 +33,8 @@ VIDEO_AUDIO = {"Music", "Singing", "Narration", "Television", "Radio"}
 
 
 YOLO_LOCAL_PATH = "yolo11l.pt"
-
 YOLO_GITHUB_URL = "https://github.com/mohamedemad6244/AI_Proctoring/releases/download/yoloV.1/yolo11l.pt"
-# محاولة تحميل النموذج
+
 try:
     if os.path.exists(YOLO_LOCAL_PATH):
         print("Loading YOLO model from local file...")
@@ -163,3 +162,4 @@ def process_audio_for_api(audio_bytes):
         "label": label,
         "confidence": confidence
     }
+
