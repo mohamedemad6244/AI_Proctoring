@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import os
 
-from proctor_system_api import process_frame_for_api, process_audio_for_api
+from proctor_system import process_frame_for_api, process_audio_for_api
 
 app = Flask(__name__)
 
@@ -38,3 +38,4 @@ def upload_audio():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))
     app.run(host="0.0.0.0", port=port, debug=True)
+
